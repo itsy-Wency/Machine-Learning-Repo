@@ -1,0 +1,20 @@
+A. Install needed tools
+Make sure you have:
+Python
+VS Code
+VS Code extensions:
+Python
+Jupyter
+
+B. Install libraries
+Open the VS Code terminal and run:
+pip install pandas matplotlib scikit-learn seaborn
+
+C. Create your notebook
+In VS Code:
+Open your project folder (Multiple Linear)
+
+Create a new file named: advertising_regression.ipynb
+Dataset Kaggle Link: https://www.kaggle.com/datasets/ashydv/advertising-dataset
+
+    

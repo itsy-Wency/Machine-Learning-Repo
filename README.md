@@ -1,4 +1,4 @@
-# Machine Learning Repo
+# Machine Learning Algorithms Beginner Friendly Guide
 
 <p align="center">
   <img src="./assets/ml-banner.svg" alt="Machine Learning beginner banner" width="100%" />
@@ -16,18 +16,18 @@
 
 ## Purpose
 
-This repository is a beginner guide with sample implementations of machine learning algorithms.
+This repository provides beginner-friendly, step-by-step machine learning walkthroughs with runnable notebooks.
 
-The goal is simple:
+Goals:
 - learn one concept at a time
-- run working examples end-to-end
-- understand results with plain-English interpretation
+- run complete examples end-to-end
+- understand outputs, metrics, and plots with plain-English interpretation
 
 ## Who This Is For
 
-- Students starting with machine learning
-- Self-learners building hands-on intuition
-- Anyone who wants guided notebooks with small, clear steps
+- Students starting machine learning
+- Self-learners building practical intuition
+- Anyone who wants guided notebooks with clear explanations
 
 ## Current Content
 
@@ -36,6 +36,9 @@ The goal is simple:
 | Simple Linear Regression | Guide | [Guide.txt](./Regression/Simple%20Linear/Guide.txt) |
 | Simple Linear Regression | Notebook | [student_scores_regression.ipynb](./Regression/Simple%20Linear/student_scores_regression.ipynb) |
 | Simple Linear Regression | Dataset | [Student_Performance.csv](./Regression/Simple%20Linear/Student_Performance.csv) |
+| Multiple Linear Regression | Guide | [Guide.txt](./Regression/Mutiple%20Linear/Guide.txt) |
+| Multiple Linear Regression | Notebook | [advertising_regression.ipynb](./Regression/Mutiple%20Linear/advertising_regression.ipynb) |
+| Multiple Linear Regression | Dataset | [advertising.csv](./Regression/Mutiple%20Linear/advertising.csv) |
 
 ## Quick Start
 
@@ -43,18 +46,28 @@ The goal is simple:
 2. Install dependencies:
 
 ```bash
-pip install pandas matplotlib scikit-learn notebook
+pip install pandas matplotlib seaborn scikit-learn notebook
 ```
 
-3. Open the notebook:
-   - `Regression/Simple Linear/student_scores_regression.ipynb`
+3. Open one notebook:
+- `Regression/Simple Linear/student_scores_regression.ipynb`
+- `Regression/Mutiple Linear/advertising_regression.ipynb`
+
 4. Run all cells in order.
-5. Review plots, metrics, and the model interpretation section.
+5. Read the explanation markdown after each code block.
+
+## Notebook Learning Format
+
+The notebooks are organized for teaching flow:
+- code cells for each step
+- markdown explanations directly after code
+- output interpretation notes
+- figure and diagram interpretation notes
 
 ## Learning Roadmap
 
 - [x] Simple Linear Regression
-- [ ] Multiple Linear Regression
+- [x] Multiple Linear Regression
 - [ ] Logistic Regression
 - [ ] Decision Tree
 - [ ] Random Forest
@@ -64,19 +77,33 @@ pip install pandas matplotlib scikit-learn notebook
 - [ ] K-Means Clustering
 - [ ] Principal Component Analysis
 
+## Latest Updates
+
+### April 16, 2026
+
+- Enhanced both regression notebooks with education-focused markdown blocks after code cells.
+- Added explicit output interpretation notes to explain tables, metrics, and printed values.
+- Added figure interpretation notes for scatter plots, histograms, correlation heatmaps, pairplots, and residual plots.
+- Improved wording in a few notebook interpretation lines for clearer beginner guidance.
+- Updated this README to include Multiple Linear Regression content and revised project structure.
+
 ## Repository Structure
 
 ```text
-Machine-Learning-Repo/
+Machine_Learning_Algorithms_Beginner_Friendly_Guide/
 |-- README.md
 |-- assets/
 |   `-- ml-banner.svg
 `-- Regression/
-    `-- Simple Linear/
+    |-- Simple Linear/
+    |   |-- Guide.txt
+    |   |-- Student_Performance.csv
+    |   |-- image.png
+    |   `-- student_scores_regression.ipynb
+    `-- Mutiple Linear/
         |-- Guide.txt
-        |-- Student_Performance.csv
-        |-- image.png
-        `-- student_scores_regression.ipynb
+        |-- advertising.csv
+        `-- advertising_regression.ipynb
 ```
 
 ## Contributing
@@ -84,10 +111,10 @@ Machine-Learning-Repo/
 Contributions are welcome, especially beginner-friendly examples that include:
 - a short concept explanation
 - a clean notebook with reproducible steps
-- metric interpretation in plain language
+- output and metric interpretation in plain language
 
 ## Notes
 
 - Keep examples practical and simple first.
 - Favor readable code over clever code.
-- Each new topic should be easy for a beginner to run in one sitting.
+- Design each new topic so a beginner can complete it in one sitting.
