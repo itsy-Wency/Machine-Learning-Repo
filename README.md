@@ -14,6 +14,10 @@
   <img src="https://img.shields.io/badge/Level-Beginner-22C55E?style=for-the-badge" alt="Beginner badge" />
 </p>
 
+<p align="center">
+  <img src="./assets/readme-divider.svg" alt="Animated divider" width="100%" />
+</p>
+
 ## Purpose
 
 This repository provides beginner-friendly, step-by-step machine learning walkthroughs with runnable notebooks.
@@ -86,6 +90,17 @@ The notebooks are organized for teaching flow:
 - Added figure interpretation notes for scatter plots, histograms, correlation heatmaps, pairplots, and residual plots.
 - Improved wording in a few notebook interpretation lines for clearer beginner guidance.
 - Updated this README to include Multiple Linear Regression content and revised project structure.
+- Added all README visual assets from `assets/` to improve presentation and navigation flow.
+
+## VS Code Style Project Explorer
+
+<p align="center">
+  <img src="./assets/vscode-explorer-animated.svg" alt="VS Code style animated project explorer" width="100%" />
+</p>
+
+<p align="center">
+  <img src="./assets/readme-divider.svg" alt="Animated divider" width="100%" />
+</p>
 
 ## Repository Structure
 
@@ -93,7 +108,9 @@ The notebooks are organized for teaching flow:
 Machine_Learning_Algorithms_Beginner_Friendly_Guide/
 |-- README.md
 |-- assets/
-|   `-- ml-banner.svg
+|   |-- ml-banner.svg
+|   |-- readme-divider.svg
+|   `-- vscode-explorer-animated.svg
 `-- Regression/
     |-- Simple Linear/
     |   |-- Guide.txt
