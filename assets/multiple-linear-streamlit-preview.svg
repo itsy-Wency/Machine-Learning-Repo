@@ -1,0 +1,134 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="760" rx="32" fill="#0F172A"/>
+  <rect x="24" y="24" width="1152" height="712" rx="26" fill="#111827"/>
+  <text x="60" y="92" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">
+    Multiple Linear Regression Streamlit UI Preview
+  </text>
+  <text x="60" y="128" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="16">
+    Minimalist dashboard preview showing light and dark mode friendly styling
+  </text>
+
+  <rect x="56" y="170" width="520" height="520" rx="26" fill="#FFFDF8"/>
+  <rect x="624" y="170" width="520" height="520" rx="26" fill="#111827" stroke="#334155"/>
+
+  <text x="84" y="214" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
+    Light Mode
+  </text>
+  <text x="652" y="214" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700">
+    Dark Mode
+  </text>
+
+  <rect x="84" y="238" width="120" height="410" rx="18" fill="#F3F4F6"/>
+  <rect x="652" y="238" width="120" height="410" rx="18" fill="#1F2937"/>
+
+  <rect x="224" y="238" width="320" height="116" rx="22" fill="#F7F3EC" stroke="#E5E7EB"/>
+  <rect x="792" y="238" width="320" height="116" rx="22" fill="#172033" stroke="#334155"/>
+
+  <rect x="224" y="374" width="98" height="88" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="334" y="374" width="98" height="88" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="444" y="374" width="98" height="88" rx="18" fill="#FFFFFF" stroke="#E5E7EB"/>
+
+  <rect x="792" y="374" width="98" height="88" rx="18" fill="#111827" stroke="#334155"/>
+  <rect x="902" y="374" width="98" height="88" rx="18" fill="#111827" stroke="#334155"/>
+  <rect x="1012" y="374" width="98" height="88" rx="18" fill="#111827" stroke="#334155"/>
+
+  <rect x="224" y="486" width="208" height="162" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="444" y="486" width="100" height="162" rx="20" fill="#FFFFFF" stroke="#E5E7EB"/>
+  <rect x="792" y="486" width="208" height="162" rx="20" fill="#111827" stroke="#334155"/>
+  <rect x="1012" y="486" width="100" height="162" rx="20" fill="#111827" stroke="#334155"/>
+
+  <rect x="244" y="268" width="86" height="10" rx="5" fill="#F97316" opacity="0.9"/>
+  <rect x="812" y="268" width="86" height="10" rx="5" fill="#38BDF8" opacity="0.9"/>
+  <rect x="244" y="290" width="208" height="18" rx="9" fill="#0F172A"/>
+  <rect x="812" y="290" width="220" height="18" rx="9" fill="#F8FAFC"/>
+  <rect x="244" y="322" width="250" height="10" rx="5" fill="#94A3B8"/>
+  <rect x="812" y="322" width="250" height="10" rx="5" fill="#475569"/>
+
+  <text x="102" y="276" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+    CONTROLS
+  </text>
+  <text x="102" y="302" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    TV Budget
+  </text>
+  <rect x="102" y="318" width="82" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="102" y="344" width="82" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="102" y="370" width="82" height="8" rx="4" fill="#CBD5E1"/>
+  <rect x="102" y="396" width="60" height="6" rx="3" fill="#F97316"/>
+  <rect x="102" y="422" width="52" height="6" rx="3" fill="#10B981"/>
+  <rect x="102" y="448" width="36" height="6" rx="3" fill="#3B82F6"/>
+
+  <text x="670" y="276" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700">
+    CONTROLS
+  </text>
+  <text x="670" y="302" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700">
+    TV Budget
+  </text>
+  <rect x="670" y="318" width="82" height="8" rx="4" fill="#334155"/>
+  <rect x="670" y="344" width="82" height="8" rx="4" fill="#334155"/>
+  <rect x="670" y="370" width="82" height="8" rx="4" fill="#334155"/>
+  <rect x="670" y="396" width="60" height="6" rx="3" fill="#F97316"/>
+  <rect x="670" y="422" width="52" height="6" rx="3" fill="#10B981"/>
+  <rect x="670" y="448" width="36" height="6" rx="3" fill="#3B82F6"/>
+
+  <text x="242" y="404" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    PREDICTED SALES
+  </text>
+  <text x="242" y="438" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">
+    15.38
+  </text>
+
+  <text x="352" y="404" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    STRONGEST DRIVER
+  </text>
+  <text x="352" y="438" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    Radio
+  </text>
+
+  <text x="462" y="404" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    INTERCEPT
+  </text>
+  <text x="462" y="438" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    4.71
+  </text>
+
+  <text x="810" y="404" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    PREDICTED SALES
+  </text>
+  <text x="810" y="438" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">
+    15.38
+  </text>
+
+  <text x="920" y="404" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    STRONGEST DRIVER
+  </text>
+  <text x="920" y="438" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    Radio
+  </text>
+
+  <text x="1030" y="404" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    INTERCEPT
+  </text>
+  <text x="1030" y="438" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700">
+    4.71
+  </text>
+
+  <path d="M252 615L284 582L316 598L348 542L380 525L412 564" stroke="#F97316" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="380" cy="525" r="7" fill="#F97316"/>
+  <rect x="244" y="506" width="120" height="10" rx="5" fill="#CBD5E1"/>
+  <rect x="244" y="526" width="84" height="8" rx="4" fill="#E2E8F0"/>
+  <rect x="464" y="506" width="60" height="12" rx="6" fill="#E5E7EB"/>
+  <rect x="464" y="530" width="60" height="12" rx="6" fill="#E5E7EB"/>
+  <rect x="464" y="554" width="60" height="12" rx="6" fill="#E5E7EB"/>
+
+  <path d="M820 615L852 582L884 598L916 542L948 525L980 564" stroke="#38BDF8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="948" cy="525" r="7" fill="#38BDF8"/>
+  <rect x="812" y="506" width="120" height="10" rx="5" fill="#334155"/>
+  <rect x="812" y="526" width="84" height="8" rx="4" fill="#475569"/>
+  <rect x="1032" y="506" width="60" height="12" rx="6" fill="#1F2937" stroke="#334155"/>
+  <rect x="1032" y="530" width="60" height="12" rx="6" fill="#1F2937" stroke="#334155"/>
+  <rect x="1032" y="554" width="60" height="12" rx="6" fill="#1F2937" stroke="#334155"/>
+
+  <text x="60" y="714" fill="#94A3B8" font-family="Segoe UI, Arial, sans-serif" font-size="15">
+    Click the preview card in the README to open the live Streamlit app.
+  </text>
+</svg>

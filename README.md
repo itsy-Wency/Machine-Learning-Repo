@@ -1,17 +1,15 @@
 # Machine Learning Algorithms Beginner Friendly Guide
 
 <p align="center">
-  <img src="./assets/ml-banner.svg" alt="Machine Learning beginner banner" width="100%" />
+  <a href="#demo-links">
+    <img src="./assets/ml-banner.svg" alt="Machine Learning beginner banner" width="100%" />
+  </a>
 </p>
 
 <p align="center">
   Beginner-friendly guides and sample projects for practical machine learning algorithms.
 </p>
 
-## Live Demo
-
-Multiple Linear Regression app:
-https://multiple-linear-regression-model-advertising-sales.streamlit.app/
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python badge" />
@@ -21,6 +19,26 @@ https://multiple-linear-regression-model-advertising-sales.streamlit.app/
 
 <p align="center">
   <img src="./assets/readme-divider.svg" alt="Animated divider" width="100%" />
+</p>
+
+## Demo Links
+
+Current live Streamlit demos in this repository:
+
+| App | Live Demo | Source |
+| --- | --- | --- |
+| Multiple Linear Regression | [Open App](https://multiple-linear-regression-model-advertising-sales.streamlit.app/) | [Regression/Mutiple Linear/app.py](./Regression/Mutiple%20Linear/app.py) |
+
+## App Previews
+
+<p align="center">
+  <a href="https://multiple-linear-regression-model-advertising-sales.streamlit.app/">
+    <img src="./assets/multiple-linear-streamlit-preview.svg" alt="Multiple Linear Regression Streamlit app preview in light and dark mode" width="100%" />
+  </a>
+</p>
+
+<p align="center">
+  Click the preview card to open the live app.
 </p>
 
 ## Purpose
@@ -91,8 +109,8 @@ The notebooks are organized for teaching flow:
 
 ### April 18, 2026
 
-- Redesigned the Multiple Linear Regression Streamlit app with a more modern dashboard-style interface.
-- Added the live Streamlit demo link to the repository documentation.
+- Refined the Multiple Linear Regression Streamlit app into a more minimalist, theme-aware layout that adapts better to Streamlit light and dark mode.
+- Added a dedicated README demo-links section and a clickable UI preview card for the live Streamlit app.
 
 ### April 16, 2026
 
