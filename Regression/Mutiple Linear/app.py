@@ -5,7 +5,8 @@ import numpy as np
 import streamlit as st
 from matplotlib import pyplot as plt
 
-MODEL_PATH = Path("advertising_model.pkl")
+APP_DIR = Path(__file__).resolve().parent
+MODEL_PATH = APP_DIR / "advertising_model.pkl"
 
 # Maximum values from the dataset for scaling
 TV_MAX = 296.4
