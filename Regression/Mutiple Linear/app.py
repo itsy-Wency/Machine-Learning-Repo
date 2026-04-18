@@ -1,12 +1,15 @@
-import pickle
-from pathlib import Path
+from dataclasses import dataclass
 
 import numpy as np
 import streamlit as st
 from matplotlib import pyplot as plt
 
-APP_DIR = Path(__file__).resolve().parent
-MODEL_PATH = APP_DIR / "advertising_model.pkl"
+# Exported from the trained multiple linear regression model.
+MODEL_COEFFICIENTS = np.array(
+    [0.05450927083721978, 0.10094536239295579, 0.0043366468220340446],
+    dtype=float,
+)
+MODEL_INTERCEPT = 4.714126402214127
 
 # Maximum values from the dataset for scaling
 TV_MAX = 296.4
@@ -14,15 +17,24 @@ RADIO_MAX = 49.6
 NEWSPAPER_MAX = 114.0
 
 
-def load_model(model_path: Path):
-    """Load a trained sklearn regression model from a pickle file."""
-    if not model_path.exists():
-        raise FileNotFoundError(f"Model file not found: {model_path}")
+@dataclass(frozen=True)
+class LinearModelParams:
+    """Lightweight prediction model for deployment without sklearn."""
 
-    with model_path.open("rb") as f:
-        model = pickle.load(f)
+    coef_: np.ndarray
+    intercept_: float
 
-    return model
+    def predict(self, features: np.ndarray) -> np.ndarray:
+        features = np.asarray(features, dtype=float)
+        return features @ self.coef_.ravel() + self.intercept_
+
+
+def load_model() -> LinearModelParams:
+    """Load exported linear regression coefficients for inference."""
+    return LinearModelParams(
+        coef_=MODEL_COEFFICIENTS.copy(),
+        intercept_=MODEL_INTERCEPT,
+    )
 
 
 def predict_sales(model, tv: float, radio: float, newspaper: float) -> float:
@@ -197,13 +209,7 @@ def main():
         """
     )
 
-    if not MODEL_PATH.exists():
-        st.error(
-            f"Model file not found. Please place a trained pickle file named 'advertising_model.pkl' in the same folder as app.py."
-        )
-        return
-
-    model = load_model(MODEL_PATH)
+    model = load_model()
 
     st.sidebar.header("Advertising Budget Sliders (0-100%)")
     st.sidebar.markdown("*Values represent percentage of maximum observed budget in the dataset*")
